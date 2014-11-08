@@ -1,15 +1,10 @@
 require 'formula'
-require File.expand_path("../../Requirements/php-meta-requirement", __FILE__)
-require File.expand_path("../../Requirements/phar-requirement", __FILE__)
 
 class Eecli < Formula
   homepage 'https://github.com/rsanchez/eecli'
   url 'https://github.com/rsanchez/eecli/releases/download/0.0.0-alpha/eecli.phar'
   sha1 '7d1dfd1f7da34c9a1d266a1608ffaf48d2f808be'
   version '0.0.0-alpha'
-
-  depends_on PhpMetaRequirement
-  depends_on PharRequirement
 
   def install
     libexec.install "eecli.phar"
