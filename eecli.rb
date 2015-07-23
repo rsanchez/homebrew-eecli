@@ -2,9 +2,9 @@ require 'formula'
 
 class Eecli < Formula
   homepage 'https://github.com/rsanchez/eecli'
-  url 'https://github.com/rsanchez/eecli/releases/download/1.0.5/eecli.phar'
-  sha1 '03d77639f580be0beb0965e959e2df7de4d4c6ad'
-  version '1.0.5'
+  url 'https://github.com/rsanchez/eecli/releases/download/1.0.6/eecli.phar'
+  sha1 '8b146417322134a784822b0d84349c2fd3b035c2'
+  version '1.0.6'
 
   def install
     libexec.install "eecli.phar"
