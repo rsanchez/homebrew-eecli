@@ -3,7 +3,7 @@ require 'formula'
 class Eecli < Formula
   homepage 'https://github.com/rsanchez/eecli'
   url 'https://github.com/rsanchez/eecli/releases/download/1.1.0/eecli.phar'
-  sha1 ''
+  sha1 '401bcd29cfcc712aabb01d766216c207647fd5d4'
   version '1.1.0'
 
   def install
